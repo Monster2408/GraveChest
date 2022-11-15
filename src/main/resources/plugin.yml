@@ -1,0 +1,5 @@
+name: GraveChest
+version: '${project.version}'
+main: xyz.mlserver.gravechest.GraveChest
+authors: [ Monster2408 ]
+description: GraveChest Plugin
