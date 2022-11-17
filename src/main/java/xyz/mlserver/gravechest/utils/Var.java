@@ -13,4 +13,6 @@ public class Var {
     public static HashMap<Location, UUID> gravePlayerUuid;
     public static HashMap<Location, Integer> graveGraveDeleteTime;
 
+    public static CustomConfiguration config;
+
 }

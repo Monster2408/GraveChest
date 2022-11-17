@@ -10,7 +10,9 @@ public class BukkitDeathEvent implements Listener {
     @EventHandler
     public void on(PlayerDeathEvent e) {
         Player player = e.getEntity();
-        e.setKeepInventory(true);
+        if (e.getKeepInventory()) {
+            return;
+        }
 
     }
 
